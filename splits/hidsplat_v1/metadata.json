@@ -1,0 +1,74 @@
+{
+  "candidate_pool_count": 205226,
+  "canonicalization": "sorted(set(paths))",
+  "files": {
+    "all_train": {
+      "count": 201122,
+      "file": "train.txt",
+      "sha256": "3c99921e42558aa674eab60f82c968c839c0fc3f7b9d4c7a61e547132dfed8c9"
+    },
+    "all_val": {
+      "count": 4104,
+      "file": "val.txt",
+      "sha256": "37cba96390c8268c025fe616833755e0d651dcee0f169e4b3fa8c3ff4bce2ff4"
+    },
+    "modelnet_test": {
+      "count": 100,
+      "file": "modelnet_test.txt",
+      "sha256": "ffe652bd8459ae95f5dd7d8abb7a96c81ef147590211ba805c53b5203cb0504c"
+    },
+    "modelnet_train": {
+      "count": 11952,
+      "file": "modelnet_train.txt",
+      "sha256": "6a45385e202589a5d9259622128ff79a6da6ddb64b3c1ef6c99b3d3f1225c340"
+    },
+    "modelnet_val": {
+      "count": 257,
+      "file": "modelnet_val.txt",
+      "sha256": "4b464272ac3e696d9a08c696d699177386f48b84f03f9c1425d169712d0791d8"
+    },
+    "objaverse_test": {
+      "count": 100,
+      "file": "objaverse_test.txt",
+      "sha256": "b9a6fe6073262a5713c8fa499c21aa3b503d8c5e857ac3f67e63d618ee8fb99e"
+    },
+    "objaverse_train": {
+      "count": 138821,
+      "file": "objaverse_train.txt",
+      "sha256": "a671344de1e5b68d60983af5636632c6a330080c9e5ac72b59a99f234c756726"
+    },
+    "objaverse_val": {
+      "count": 2782,
+      "file": "objaverse_val.txt",
+      "sha256": "fb6af29c5b362bce307bd28ba4c933286acd130e2f69d5072413baa3de5f854b"
+    },
+    "shapenet_test": {
+      "count": 100,
+      "file": "shapenet_test.txt",
+      "sha256": "6c9bac3ba77d716c16688fd54df8e0e7c282fc1c96e9a6610c4fd59519cbcf1b"
+    },
+    "shapenet_train": {
+      "count": 50349,
+      "file": "shapenet_train.txt",
+      "sha256": "f6a05f8839beeb40134153297e9c9872791fadca063ccdf1f0948ca7d3304ff2"
+    },
+    "shapenet_val": {
+      "count": 1065,
+      "file": "shapenet_val.txt",
+      "sha256": "bb6d710411801e9b733f03c145efbbd44c7d46a5051ab61138ac841a3268bc55"
+    }
+  },
+  "name": "hidsplat_v1",
+  "seed": 0,
+  "source_pool": "outputs/watermark_mixed_v2_dynamic_4k12k/splits/train_files.txt",
+  "split_algorithm": "torch.utils.data.random_split",
+  "test_counts": {
+    "modelnet": 100,
+    "objaverse": 100,
+    "shapenet": 100
+  },
+  "test_selection": "outputs/baseline_packages/manifest.json",
+  "train_count": 201122,
+  "val_count": 4104,
+  "val_ratio": 0.02
+}
