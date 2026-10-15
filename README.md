@@ -1,5 +1,7 @@
 # HiD-Splat: One-Pass Attribute-Space Watermarking for 3D Gaussian Splatting
 
+HiD-Splat: One-Pass Attribute-Space Watermarking for 3D Gaussian Splatting
+
 This directory contains the core code for the message-conditioned Gaussian embedder and Gaussian-MAE-based extractor, mixed-domain training, and Gaussian-space evaluation. It is a source release bundle, not a copy of the datasets, pretrained weights, trained checkpoints, or per-scene baseline repositories.
 
 ## Contents
